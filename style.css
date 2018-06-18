@@ -1,8 +1,8 @@
 /* Global element styling */
 
 body {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
 }
 
 nav {
