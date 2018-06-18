@@ -24,6 +24,11 @@ code {
     font-weight: bold;
 }
 
+a {
+    color: var(--purple);
+    font-weight: 600;
+}
+
 /* Styling by class */
 .main-text {
     font-size: 20px;
