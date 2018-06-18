@@ -1,0 +1,18 @@
+/* Global element styling */
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+code {
+    background: rgba(0, 0, 0, 0.822);
+    color: rgb(45, 183, 230);
+    border-radius: 2px;
+}
