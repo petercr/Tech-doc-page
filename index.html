@@ -51,6 +51,24 @@
         </section>
         <section class="main-section">
             <header id="Deploying">Deploying</header>
+            <h1>Tutorials for deploying on different static sites</h1>
+            <ul>
+                <li><a href="https://www.gatsbyjs.org/docs/deploy-gatsby/#netlify">Netlify</a></li>
+                <li><a href="https://www.gatsbyjs.org/docs/deploy-gatsby/#amazon-s3-and-cloudfront">S3/Cloudfront</a></li>
+                <li><a href="https://www.gatsbyjs.org/docs/deploy-gatsby/#github-pages">GitHub Pages</a></li>
+                <li><a href="https://www.gatsbyjs.org/docs/deploy-gatsby/#gitlab-pages">GitLab Pages</a></li>
+                <li><a href="https://www.gatsbyjs.org/docs/deploy-gatsby/#heroku">Heroku</a></li>
+                <li><a href="https://www.gatsbyjs.org/docs/deploy-gatsby/#now">Now</a></li>
+            </ul>
+            <h1>Netlify</h1>
+            <p>Netlify is an excellent option for deploying Gatsby sites. Netlify is a unified platform that automates your code to create high-performant, easily maintainable sites and web apps. They provide continuous deployment (Git-triggered builds), an intelligent, global CDN, full DNS (including custom domains), automated HTTPS, asset acceleration, and a lot more.
+            Their free tier includes unlimited personal and commercial projects, HTTPS, continuous deployment from public or private repos and more.</p>
+            <h2>Deploying to Netlify</h2>
+            <p>To deploy your Gatsby site to Netlify, go to the <a href="https://app.netlify.com/start">create a new site</a> page, select your project repo from GitHub, GitLab, or Bitbucket, and follow the prompts.</p>
+            <h1>Amazon S3 and Cloudfront</h1>
+            <p>If you decide to host your Gatsby site on S3 with Cloudfront as CDN, you should change the “Origin Domain Name” on the Cloudfront panel with the real URL of your S3 bucket: <b>examplewebsite.com.s3-website-eu-west-1.amazonaws.com</b> replacing the default URL suggested by <b>Amazon examplewebsite.com.s3.amazonaws.com.</b></p>
+            <p>Without this change, <a href="https://forums.aws.amazon.com/message.jspa?messageID=314454">S3 doesn’t look for index.html files when serving “clean urls”.</a></p>
+            <h2>If you would like read about the rest, <a href="https://www.gatsbyjs.org/docs/deploy-gatsby/">see the actual Gatsby Page.</a></h2>
         </section>
         <section class="main-section">
             <header id="Community">Community</header>
