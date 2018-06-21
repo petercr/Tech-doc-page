@@ -1,5 +1,6 @@
 # Tech-doc-page
 A technical documentation page done as a project for www.freecodecamp.org
+[Click here to view my live version](https://petercr.github.io/Tech-doc-page/)
 
 ## A live example of a finished project
 A live example of what a finished project should look like can be found [here on CodePen]( https://codepen.io/freeCodeCamp/full/NdrKKL)
